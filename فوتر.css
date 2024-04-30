@@ -1,0 +1,71 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.footer{
+	background-color: black;
+}
+.fotercontainer{
+	width: 100%;
+	padding: 70px 30px 20px;
+}
+.socialicon{
+	display: flex;
+	justify-content: center;
+}
+.socialicon a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.socialicon a i{
+	font-size: 2rem;
+	color: black;
+	opacity: 0.9;
+}
+/*hover effects on social media icon */
+.socialicon a:hover{
+	background-color: #111;
+	transition: 0.5s;
+}
+.socialicon a:hover i{
+	color: white;
+	transition: 0.5s;
+}
+.foternav{
+	margin: 30px 0;;
+}
+.foternav ul{
+	display: flex;
+	justify-content: center;
+}
+.foternav ul li a{
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3rem;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+.foternav ul li a:hover{
+	opacity: 1;
+}
+.foterbottom{
+	color: white;
+}
+.disiner{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}
+.foternav ul li{
+	width: 150px;
+	text-align: center;
+	margin: 5px;
+}
